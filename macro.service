@@ -1,0 +1,14 @@
+# ***macro.service***
+[Unit]
+Description=macro
+After=multi-user.target
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/pi/Macro/pyMacro.sh
+User=pi
+WorkingDirectory=/home/pi/Macro
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+[Install]
+WantedBy=multi-user.target
