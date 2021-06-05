@@ -1,4 +1,4 @@
-# proyecto-final-embebidos
+# proyecto-final-sistemas-embebidos
 Grabadora segura en la nube.
 
 El presente repositorio presenta el proyecto  final de sistemas embebidos, que corresponde con una grabadora segura en la nube, compuesta de los siguientes scripts:
