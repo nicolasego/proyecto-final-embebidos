@@ -1,20 +1,19 @@
 # proyecto-final-sistemas-embebidos
-Grabadora segura en la nube.
+Grabadora de voz segura en la nube.
 
 El presente repositorio presenta el proyecto  final de sistemas embebidos, que corresponde con una grabadora segura en la nube, compuesta de los siguientes scripts:
 
-El programa principal mediante el cual se pide la llave para la desencripción de los archivos----->
+El programa principal mediante el cual se crea la partición de la RAM, se pide la llave para la desencripción de los archivos y se habilita un programa en python que tiene el multiproceso-----> https://github.com/nicolasego/proyecto-final-embebidos/blob/main/pyMacro.sh
 
-En adición cuenta con un archivo que habilita un programa en python que tiene el multiproceso----->
+De igual forma se presenta un programa en python, que presenta un multiproceso, que consta del proceso de creación de grabaciones y el proceso de envio de las mismas a la nube-----> https://github.com/nicolasego/proyecto-final-embebidos/blob/main/multi.py
 
-De igual forma se presenta un programa en python, que presenta un multiproceso, que consta del proceso de creación de grabaciones y el proceso de envio de las mismas a la nube----->
+Tambien se cuenta con el proceso de grabación----> https://github.com/nicolasego/proyecto-final-embebidos/blob/main/grabar.sh
 
-Tambien se cuenta con el proceso de grabación---->
+y el proceso de envio a la nube----> https://github.com/nicolasego/proyecto-final-embebidos/blob/main/enviar.sh
 
-y el proceso de envio a la nube---->
+Demonio con systemd----> https://github.com/nicolasego/proyecto-final-embebidos/blob/main/macro.service
 
-
-El proyecto requirio de codigos en bash y python, así como el uso de servicio de nube, los multiprocesos, la creación de demonios usando systemd y el uso de llaves para la seguridad del mismo.
+El proyecto requirió de codigos en bash y python, así como el uso de servicio de nube, los multiprocesos, la creación de demonios usando systemd y el uso de llaves para la seguridad del mismo.
 
 
 Conclusiones:
