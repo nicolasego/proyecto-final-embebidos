@@ -25,6 +25,8 @@ o Se permite contar con un sistema que esta siempre arriba, gracias al uso de sy
 o Se evidencio y se puso en practica la importancia y gran utilidad de los multiprocesos.
 
 o Se usaron y apropiaron los servicios de la nube para contar con un almacenamiento constante de las salidas del sistema.
+ 
+o Dado a que los procesos usan diferentes espacios de memoria, se tienen tareas independientes.
 
 o Se logró crear un sistema seguro mediante el uso de archivos temporales y el uso de llaves.
 
